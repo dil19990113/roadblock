@@ -1,0 +1,73 @@
+body{
+    background-image:url(1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-blend-mode:overlay;
+}
+.text{
+    color: rgb(159, 255, 4);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 10px #000;
+    background-color: #00000085;
+    animation: animate1 3s linear 0s 1 forwards;
+    margin-top: 0px;
+}
+@keyframes animate1 {
+    from {
+        opacity: 0;
+        transform: translate(0, -100px);
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+
+.text:nth-child(13) {
+    display: block;
+}
+.year{
+    color: rgb(255, 251, 0);
+    font-size: 85px;
+    margin-bottom: 5px;
+}
+.nav{
+    color: aliceblue;
+    font-size: 90px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.ps{
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 20px #010b14;
+    font-weight: bold;
+    font-size: 35px;
+}
+.bt{
+    width: 10rem;
+    height: auto;
+    color: #FFF;
+    background-color: #4b0552;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 25px;
+    margin: 20px 30px;
+    box-shadow: 0 0 20px #cc00ff;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    margin-top: 0px;
+}
+.bt:hover {
+    background-color: #FF00C8;
+    color: #000;
+}

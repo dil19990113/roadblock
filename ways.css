@@ -1,0 +1,42 @@
+body{
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.btns{
+    background-color: rgba(0, 0, 0, 0.568);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 1px 20px #444343;
+    font-family: "Noto Sans Sinhala", sans-serif;
+    font-size: 12px;
+}
+.btns button{
+    width: 50%;
+    height: auto;
+    color: #FFF;
+    background-color: #4b0552;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 25px;
+    margin: 20px 30px;
+    box-shadow: 0 0 20px #cc00ff;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    margin-top: 0px;
+    font-family: "Noto Sans Sinhala", sans-serif;
+}
+button:hover {
+    background-color: #FF00C8;
+    color: #030303;
+    font-weight: bold;
+}
