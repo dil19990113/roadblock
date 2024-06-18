@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Car on Selected Path</title>
+    <style>
+        #mapCanvas {
+            border: 1px solid black;
+        }
+        .controls {
+            margin-top: 10px;
+        }
+        button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="mapCanvas" width="800" height="600"></canvas>
+    <div class="controls">
+        <button id="savePathBtn">Save Path</button>
+        <button id="deletePathBtn">Delete Path</button>
+        <button id="addPathBtn">Add New Path</button>
+    </div>
+    <script src="animation.js"></script>
+</body>
+</html>
